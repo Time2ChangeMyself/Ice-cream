@@ -1,0 +1,43 @@
+.main-content {
+  flex: 1 0 auto;
+  font-family: 'Inter', 'Arial', sans-serif;
+  padding-bottom: 120px;
+  
+  @media screen and (max-width: 768px) {
+    padding-bottom: 60px;
+  }
+}
+
+.svg-wrap {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 57px;
+  max-height: 46px;
+  margin: 0 2% 0 2%;
+}
+
+.title {
+  color: #212542;
+  font-size: 4rem;
+  line-height:  1.2;
+  letter-spacing: 0.1em;
+  margin-bottom: 48px;
+
+  @media screen and (max-width: 768px) {
+    font-size: 3rem;
+  }
+}
+
+.ice-cream-list {
+  min-width: 100%;
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  flex-wrap: wrap;
+
+  @media screen and (max-width: 1280px) {
+    justify-content: center;
+  }
+  
+}
